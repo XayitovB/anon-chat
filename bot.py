@@ -8,7 +8,7 @@ from telegram.error import TelegramError, BadRequest, TimedOut, NetworkError
 from config import BOT_TOKEN, SUPER_ADMIN_ID, BOT_USERNAME
 from database import Database
 from keyboards import Keyboards
-from admin_handlers import AdminHandlers
+from handlers.admin import AdminHandlers
 from security import SecurityManager, InputValidator
 
 # Configure color-coded logging for better visibility
