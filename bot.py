@@ -207,7 +207,7 @@ class ChatBot:
         """
         
         # Path to the local image file
-        photo_path = "picture/1.jpg"
+        photo_path = "assets/1.jpg"
         
         try:
             # Send photo with caption and button
@@ -469,7 +469,7 @@ class ChatBot:
             keyboard = Keyboards.main_menu()
         
         # Path to the main menu image file
-        photo_path = "picture/2.jpg"
+        photo_path = "assets/2.jpg"
         
         try:
             # Always send a fresh message for the main menu to ensure proper button display
@@ -1100,7 +1100,7 @@ class ChatBot:
 Здесь вы можете управлять своим профилем.
             """
             # Path to the settings image file
-            photo_path = "picture/3.jpg"
+            photo_path = "assets/3.jpg"
             
             try:
                 # Send photo with caption and keyboard
@@ -1198,7 +1198,7 @@ class ChatBot:
             logger.info(f"📊 Found {len(subscription_plans)} active subscription plans for user {user_id}")
             
             # Path to the premium image file
-            photo_path = "picture/premium.jpg"
+            photo_path = "assets/premium.jpg"
             logger.info(f"🖼️ Attempting to send premium image from: {photo_path}")
             
             try:
@@ -1945,7 +1945,7 @@ https://t.me/{BOT_USERNAME}?start=u{user_id}
             text += "будут заблокированы в нашем боте и удалены из ТОПа."
             
             # Path to the TOP image file
-            photo_path = "picture/top.jpg"
+            photo_path = "assets/top.jpg"
             
             try:
                 # Send photo with caption and back button
